@@ -4,7 +4,7 @@ A Chrome extension for keeping tabs on your tabs.
 
 To install locally: 
 
-1. `git clone https://github.com/momonala/tab-notes.git
+1. `git clone https://github.com/momonala/tab-notes.git`
 2. Go to [`chrome://extensions/`](chrome://extensions/)
 3. enable Developer mode
 4. and click on "Load unpacked" on the top left.
