@@ -3,7 +3,7 @@
   "name": "Tab Notes",
   "version": "1.0",
   "description": "Keep tabs on your tabs.",
-  "permissions": ["tabs", "activeTab", "storage"], // Add "storage" permission
+  "permissions": ["tabs", "activeTab", "storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
