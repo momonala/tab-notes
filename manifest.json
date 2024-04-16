@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Notes",
+  "version": "1.0",
+  "description": "Keep notes about your tabs.",
+  "permissions": ["tabs", "activeTab", "storage"], // Add "storage" permission
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
+

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 300px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #cc0000, #e65c00, #ff8000, #ffae00, #80d400, #00b300, #00cc66, #0088cc, #003399, #4d0099, #8000ff, #b300ff); /* Reversed rainbow gradient with even darker colors */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+button:hover {
+  background: linear-gradient(to right, #cc0000, #e65c00, #ff8000, #ffae00, #80d400, #00b300, #00cc66, #0088cc, #003399, #4d0099, #8000ff, #b300ff); /* Maintain rainbow gradient on hover */
+}
+
+
+
+/* Add pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsing {
+  animation: pulse .3s 1;
+}
+
